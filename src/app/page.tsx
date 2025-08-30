@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 
 export default function CustomFontTester() {
     const [textContent, setTextContent] = useState(
-        '커스텀 폰트 테스트 텍스트입니다.\nABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n1234567890!@#$%^&*()'
+        'ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz'
     );
     const [fontSize, setFontSize] = useState(150);
     const [lineHeight, setLineHeight] = useState(1.5);
